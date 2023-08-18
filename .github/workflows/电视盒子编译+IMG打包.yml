@@ -10,8 +10,6 @@ on:
   workflow_dispatch:
     inputs:
       source_branch:
-        description: 'SSH connection to Actions'
-        required: false
         description: "Select the source branch"
         required: false
         default: "openwrt-main"
